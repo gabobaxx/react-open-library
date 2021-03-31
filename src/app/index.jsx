@@ -9,6 +9,6 @@ import data from './data.json';
 const headings = ['When', 'Who', 'Description'];
 
 ReactDOM.render(
-  <App data={data} title="React Open Library" headings={headings} />,
-  document.getElementById('root')
+	<App data={data} title="React Open Library" headings={headings} />,
+	document.getElementById('root')
 );
